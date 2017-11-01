@@ -1,4 +1,4 @@
-说明：
+### 说明
 此镜像是根据stilliard/pure-ftpd修改的
 只是增加了一个用户名为abc，密码为123456的FTP用户
 其它没变
@@ -6,11 +6,10 @@
 原镜像说明
 https://hub.docker.com/r/stilliard/pure-ftpd/
 *****************************************************************
-
+```
 Docker Pure-ftpd Server
 
 https://hub.docker.com/r/stilliard/pure-ftpd/
-
 
 
 Pull down with docker:
@@ -189,3 +188,4 @@ Credits
 
 Thanks for the help on stackoverflow with this!
 https://stackoverflow.com/questions/23930167/installing-pure-ftpd-in-docker-debian-wheezy-error-421
+```
