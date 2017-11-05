@@ -11,7 +11,7 @@ docker run -d --name dbs --volumes-from dbdata -e MYSQL_ROOT_PASSWORD=654321 -e 
 
 ## WORDPRESS
 ```
-docker run -d --name=kaifeng-web -v /home/lhy/ftp/www:/var/www/html --link sql:dbs -p 80:80 wordpress
+docker run -d --name=kaifeng-web -v /home/lhy/ftp/www:/var/www/html --link dbs:db -p 80:80 wordpress
 ```
 
 
