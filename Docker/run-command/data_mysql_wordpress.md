@@ -9,7 +9,7 @@ docker run -d --name dbdata -v /var/lib/mysql ubuntu
 ## MYSQL
 
 ```
-docker run -d --name dbs --volumes-from dbdata -e MYSQL_ROOT_PASSWORD=654321 -e MYSQL_DATABASE=kaifeng -e MYSQL_USER=kaifeng -e MYSQL_PASSWORD=123456 mysql
+docker run -d --name mysql --volumes-from dbdata -e MYSQL_ROOT_PASSWORD=654321 -e MYSQL_DATABASE=kaifeng -e MYSQL_USER=kaifeng -e MYSQL_PASSWORD=123456 mysql
 ```
 
 ## WORDPRESS
